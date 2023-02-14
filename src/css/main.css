@@ -1,7 +1,35 @@
 body 
     .wrapper {
-        position: absolute;
         left: 94px;
         top: 46px;
+    }
+    .box {
+        position: absolute;
+        display: flex;
+        align-items: stretch;
+        width: 69px;
+        height: 14px;
+        left: 121px;
+        top: 49px;
+        }
+    .heading{
+        position: relative;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        color: #EB5757;
+    }
+    .searchbox{
+        position: absolute;
+        width: 297px;
+        height: 55px;
+        left: 1047px;
+        top: 32px;
+
+        /* background: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 16px; */
     }
     
