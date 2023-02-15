@@ -32,3 +32,14 @@ body .wrapper {
   left: 1397px;
   top: 32px;
 }
+
+.Listing {
+  position: relative;
+  top: 100px;
+  left: 94px;
+}
+
+.photo {
+  width: 395px;
+  height: 269px;
+}
