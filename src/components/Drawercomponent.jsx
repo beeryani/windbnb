@@ -1,6 +1,7 @@
 import '../css/main.css';
 import { Button, Drawer } from 'antd';
 import { useState } from 'react';
+import { FaSearch } from 'react-icons/fa';
 
 function Drawercomponent(params) {
   const [visible, setVisible] = useState(false);
@@ -11,7 +12,9 @@ function Drawercomponent(params) {
         onClick={() => {
           setVisible(true);
         }}
-      ></Button>
+      >
+        <FaSearch />
+      </Button>
       <Drawer
         visible={visible}
         placement="top"
