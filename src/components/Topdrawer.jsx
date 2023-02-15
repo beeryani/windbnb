@@ -11,7 +11,7 @@ const Topdrawer = () => {
   const onClose = () => {
     setOpen(false);
   };
-  const onChange = (e) => {
+  const onChange = e => {
     setPlacement(e.target.value);
   };
   return (
@@ -22,14 +22,14 @@ const Topdrawer = () => {
         </Button>
       </Space>
       <Drawer
-        title="Basic Drawer"
+        title=""
         placement="top"
         closable={false}
         onClose={onClose}
         open={open}
         key="top"
       >
-        <div className='dropdownsearchbox'>
+        <div className="dropdown">
           <Searchbox />
         </div>
       </Drawer>

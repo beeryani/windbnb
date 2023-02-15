@@ -1,4 +1,4 @@
-import "../css/main.css"
+import '../css/main.css';
 import { AudioOutlined } from '@ant-design/icons';
 import { Input, Space } from 'antd';
 const { Search } = Input;
@@ -10,12 +10,10 @@ const suffix = (
     }}
   />
 );
-const onSearch = (value) => console.log(value);
+const onSearch = value => console.log(value);
 const Searchbox = () => (
   <Space direction="vertical">
-    <div className="searchbox">
     <Search placeholder="input search text" onSearch={onSearch} enterButton />
-    </div>  
   </Space>
 );
 export default Searchbox;
