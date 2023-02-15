@@ -13,9 +13,7 @@ const suffix = (
 const onSearch = value => console.log(value);
 const Searchbox = () => (
   <Space direction="vertical">
-    <div className="searchbox">
-      <Search placeholder="input search text" onSearch={onSearch} enterButton />
-    </div>
+    <Search placeholder="input search text" onSearch={onSearch} enterButton />
   </Space>
 );
 export default Searchbox;

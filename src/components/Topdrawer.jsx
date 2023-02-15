@@ -22,14 +22,14 @@ const Topdrawer = () => {
         </Button>
       </Space>
       <Drawer
-        title="Basic Drawer"
+        title=""
         placement="top"
         closable={false}
         onClose={onClose}
         open={open}
         key="top"
       >
-        <div className="dropdownsearchbox">
+        <div className="dropdown">
           <Searchbox />
         </div>
       </Drawer>
